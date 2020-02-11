@@ -78,6 +78,10 @@ p {
     color: yellowgreen;
 }
 
+.etymology a {
+    color: white;
+}
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -113,9 +117,6 @@ p {
       width: 50%; height: 50%;
   }
 
-.etymology a {
-    color: white;
-}
 
 .diet {
     margin: 0px auto;
