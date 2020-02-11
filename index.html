@@ -8,9 +8,16 @@
 </head>
 <body>
     <div class="column">
+        <h1>Giraffe</h1>
+        <div class="tab">
+            <button class="tablinks" onclick="ginfo(event, 'etymologytab')">Etymology</button>
+            <button class="tablinks" onclick="ginfo(event, 'theawesomenecktab')">The awesome neck</button>
+            <button class="tablinks" onclick="ginfo(event, 'evolutiontab')">Evolution</button>
+          </div>
 
-<h1>Giraffe</h1>
 
+
+<div id="etymologytab" class="tabcontent">
 <div class="etymology">
 
 <h2>Etymology</h2>
@@ -20,6 +27,9 @@
 </p>
 
 </div>
+</div>
+
+<div id="theawesomenecktab" class="tabcontent">
     
 <h2>The awesome neck</h2>
 
@@ -34,7 +44,11 @@
 
     <p>Also a awesome feature regarding the neck is the giraffes fighting abilities</p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KQLPL1qRhn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KQLPL1qRhn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:inline-end"></iframe>
+
+</div>
+
+<div id="evolutiontab" class="tabcontent">
             
 <h2>Evolution</h2>
 
@@ -48,6 +62,7 @@
       <a href="https://en.wikipedia.org/wiki/Giraffe#Mortality_and_health">Mortality and health</a>
     </div>
   </div>
+</div>
  
 
 
