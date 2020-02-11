@@ -1,0 +1,19 @@
+h1 {
+    font-family: Arial;
+    color: rgb(20, 16, 80);
+}
+
+h2 {
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
+
+.column {
+    width: 600px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 1px 40px 40px 40px; 
+}
