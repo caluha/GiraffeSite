@@ -61,6 +61,7 @@ p {
     .show {
         display:block;
     }
+
 .etymology {
     margin: 0px auto;
     font-family: Arial;
@@ -69,3 +70,4 @@ p {
     padding: 25px;
     color: white;
     box-shadow: 16px 16px 30px yellowgreen;
+}
