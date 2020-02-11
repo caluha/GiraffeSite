@@ -1,0 +1,19 @@
+.etymology {
+    margin: 0px auto;
+    font-family: Arial;
+    width: 400px;
+    background-color: purple;
+    padding: 25px;
+    color: white;
+    box-shadow: 16px 16px 30px yellowgreen;
+}
+
+h2 {
+    font-family: Helvetica;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 45px;
+    text-align: center;
+}
